@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public interface CocheCrud {
+public interface CocheCRUD {
+    void save();
+    void findAll();
+    void delete();
 }
